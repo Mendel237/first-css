@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mon premier cour html</title>
+    <!-- titre -->
+<h1>mon premier cour html</h1>
+<!-- icone de l'onglet -->
+<link rel="shortcut icone" href="photo tech.jpg">
+<link rel="stylesheet" href="main.css" type="text/css">
+</head>
+
+<body>
+    <!-- les section c'est subdiviser les grande partie du code  -->
+    <section>
+        <!-- la balise div pour les sous section meme les sous section -->
+        <div>
+            <h1>titre photo</h1>
+            <img src="photo tech.jpg" alt="photo%20tech">
+        </div>
+        <!-- pour du text on utise la balise <p></p> -->
+        <p>text basidue <em>voici un text en italique <strong>gras</strong></em></p>
+        <div>
+            <span> ne revient pas a la ligne </span>
+
+            <h2>titre</h2>
+            <ul>
+                <li>UL=unodrered list1</li>
+                <li>unodrered liste   </li>
+                <li>unorder liste     </li>
+            </ul>
+            <ol>
+                <li>OL order liste</li>
+                <li>ordered liste </li>
+                <li>odere liste   </li>
+            </ol>
+        </div>
+        <div>
+            <h3><span> &#*261B;</span> les lien on utilise les anchor ou a </h3>
+            <a href="https://htmlcheatsheet.com" target="_blank"> html cheat sheets</a>
+
+        </div>
+        <div>
+            <h4>titre video</h4>
+            <video src="movies.mp4" height="200" autoplay loop muted></video>
+        </div>
+        <div>
+           <h5><strong> les formulaire</strong></h5>
+           <form action="/action.php" method="post">
+            <input type="text">
+           </form>
+        </div>
+        <!-- les tableaux commencons par une legende  -->
+        <table border="3" width="60%">
+            <caption>population d'Afrigue</caption>
+            <!-- une entete -->
+        <!-- <thead></thead> pour tout l,entete du tableaux  -->
+        <thead>
+            <!-- corps du tableaux -->
+            <tbody>
+                <tr>
+                    <td>Cameroun</td>
+                    <td>30M</td> 
+                </tr>
+                <tr>
+                    <td>tchad</td>
+                    <td>20M</td>
+
+                </tr>
+            </tbody>
+            <tr>
+                <th>pays</th>
+                <th>population</th>
+            </tr>
+        </thead>
+        </table>
+    </section> 
+     
+</body>
+</html> 
